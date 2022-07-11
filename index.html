@@ -4,14 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>미니프로젝트 몯음</title>
+    <title>미니프로젝트 모음</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+   <style>
+        .thick{
+            font-weight: bolder;
+        }
+        td:hover{
+            background-color: yellow;
+            transform: scale(1.2);
+        }
+    </style>
 </head>
 <body>
-    <h1>유성훈의 미니 프로젝트 <4개></h1>
-    <h2>01. <a href="./day4_clock/clock.html">디지털 시계 만들기</a>       </h2>
-    <h2>02. <a href="./day4_lotto/index.html">로또 번호 추첨 하기</a>  </h2>
-    <h2>03. <a href="./day5_todo/inedex.html">할일 목록</a></h2>
-    <h2>04. <a href="./day6_practice/photo/index2.html">랜텀 포토 앨법</a></h2>
 
+
+
+  <table class="table table-hover">
+  <thead>
+    <tr id="thick">
+        <th scope="col">번호/제목</th>
+        <th scope="col">유성훈의 미니 프로젝트</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">01</th>
+      <td id="ho1"><a href="./day4_clock/clock.html">디지털 시계 만들기</a> </td>
+    </tr>
+    <tr>
+      <th scope="row">02</th>
+      <td id="ho2"><a href="./day4_lotto/index.html">로또 번호 추첨 하기</a></td>
+    </tr>
+    <tr>
+      <th scope="row">03</th>
+      <td id="ho3"><a href="./day5_todo/inedex.html">할일 목록</a></td>
+    </tr>
+    <tr>
+        <th scope="row">04</th>
+        <td id="ho4"><a href="./day6_practice/photo/index2.html">랜덤 포토 앨범</a></td>
+      </tr>
+  </tbody>
+</table>
+
+<hr>
+
+
+
+
+<canvas id="canvas"></canvas>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
